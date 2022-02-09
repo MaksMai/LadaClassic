@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D2474EA27B3A7D8001AB2C1 /* CarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2474E927B3A7D8001AB2C1 /* CarData.swift */; };
+		6D2474ED27B3AFA2001AB2C1 /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2474EC27B3AFA2001AB2C1 /* CarModel.swift */; };
 		6D3F323127ABE241000AAFCD /* CarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323027ABE241000AAFCD /* CarCardView.swift */; };
 		6D3F323327ABF247000AAFCD /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323227ABF247000AAFCD /* StartButtonView.swift */; };
 		6D3F323527ABF7BC000AAFCD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D2474E927B3A7D8001AB2C1 /* CarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarData.swift; sourceTree = "<group>"; };
+		6D2474EC27B3AFA2001AB2C1 /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
 		6D3F323027ABE241000AAFCD /* CarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCardView.swift; sourceTree = "<group>"; };
 		6D3F323227ABF247000AAFCD /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2474E827B3A795001AB2C1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6D2474E927B3A7D8001AB2C1 /* CarData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6D2474EB27B3AF68001AB2C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D2474EC27B3AFA2001AB2C1 /* CarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		6D3F322E27ABE1B8000AAFCD /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +97,8 @@
 		6D5AF58827A9620B001902D4 /* Lada */ = {
 			isa = PBXGroup;
 			children = (
+				6D2474EB27B3AF68001AB2C1 /* Model */,
+				6D2474E827B3A795001AB2C1 /* Data */,
 				6D3F323627ABFC2A000AAFCD /* Info.plist */,
 				6D3F322F27ABE1F4000AAFCD /* View */,
 				6D3F322E27ABE1B8000AAFCD /* App */,
@@ -165,7 +187,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5AF58C27A9620B001902D4 /* ContentView.swift in Sources */,
+				6D2474ED27B3AFA2001AB2C1 /* CarModel.swift in Sources */,
 				6D3F323327ABF247000AAFCD /* StartButtonView.swift in Sources */,
+				6D2474EA27B3A7D8001AB2C1 /* CarData.swift in Sources */,
 				6D5AF58A27A9620B001902D4 /* LadaApp.swift in Sources */,
 				6D3F323527ABF7BC000AAFCD /* OnboardingView.swift in Sources */,
 				6D3F323127ABE241000AAFCD /* CarCardView.swift in Sources */,

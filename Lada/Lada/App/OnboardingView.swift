@@ -11,12 +11,14 @@ struct OnboardingView: View {
     
     // MARK: - PROPERTIES
     
+    var cars: [Car] = carsData
+    
     // MARK: - BODY
     
     var body: some View {
         TabView {
-            ForEach(0..<5) { item in
-                CarCardView()
+            ForEach(cars[0...6]) { item in
+                CarCardView(car: item)
             }
         } // TAB
         .tabViewStyle(PageTabViewStyle())
@@ -28,6 +30,6 @@ struct OnboardingView: View {
 
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
-        OnboardingView()
+        OnboardingView(cars: carsData)
     }
 }
