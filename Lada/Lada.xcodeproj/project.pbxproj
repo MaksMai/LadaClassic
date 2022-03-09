@@ -16,6 +16,11 @@
 		6D5AF58C27A9620B001902D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5AF58B27A9620B001902D4 /* ContentView.swift */; };
 		6D5AF58E27A9620C001902D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5AF58D27A9620C001902D4 /* Assets.xcassets */; };
 		6D5AF59127A9620C001902D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5AF59027A9620C001902D4 /* Preview Assets.xcassets */; };
+		6D5B0C2027D8B79D00158D85 /* LadaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B0C1F27D8B79D00158D85 /* LadaRowView.swift */; };
+		6D5B0C2227D8BDA800158D85 /* LadaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B0C2127D8BDA800158D85 /* LadaDetailView.swift */; };
+		6D5B0C2427D8C33F00158D85 /* LadaHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B0C2327D8C33F00158D85 /* LadaHeaderView.swift */; };
+		6D5B0C2627D8C67E00158D85 /* SourseLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B0C2527D8C67E00158D85 /* SourseLinkView.swift */; };
+		6D5B0C2827D8CC3500158D85 /* LadaFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5B0C2727D8CC3500158D85 /* LadaFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		6D5AF58B27A9620B001902D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D5AF58D27A9620C001902D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D5AF59027A9620C001902D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6D5B0C1F27D8B79D00158D85 /* LadaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadaRowView.swift; sourceTree = "<group>"; };
+		6D5B0C2127D8BDA800158D85 /* LadaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadaDetailView.swift; sourceTree = "<group>"; };
+		6D5B0C2327D8C33F00158D85 /* LadaHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadaHeaderView.swift; sourceTree = "<group>"; };
+		6D5B0C2527D8C67E00158D85 /* SourseLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourseLinkView.swift; sourceTree = "<group>"; };
+		6D5B0C2727D8CC3500158D85 /* LadaFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadaFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,7 @@
 				6D5AF58927A9620B001902D4 /* LadaApp.swift */,
 				6D5AF58B27A9620B001902D4 /* ContentView.swift */,
 				6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */,
+				6D5B0C2127D8BDA800158D85 /* LadaDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -74,6 +85,10 @@
 			children = (
 				6D3F323027ABE241000AAFCD /* CarCardView.swift */,
 				6D3F323227ABF247000AAFCD /* StartButtonView.swift */,
+				6D5B0C1F27D8B79D00158D85 /* LadaRowView.swift */,
+				6D5B0C2327D8C33F00158D85 /* LadaHeaderView.swift */,
+				6D5B0C2527D8C67E00158D85 /* SourseLinkView.swift */,
+				6D5B0C2727D8CC3500158D85 /* LadaFeatureView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,12 +202,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D5AF58C27A9620B001902D4 /* ContentView.swift in Sources */,
+				6D5B0C2827D8CC3500158D85 /* LadaFeatureView.swift in Sources */,
+				6D5B0C2627D8C67E00158D85 /* SourseLinkView.swift in Sources */,
+				6D5B0C2027D8B79D00158D85 /* LadaRowView.swift in Sources */,
 				6D2474ED27B3AFA2001AB2C1 /* CarModel.swift in Sources */,
 				6D3F323327ABF247000AAFCD /* StartButtonView.swift in Sources */,
 				6D2474EA27B3A7D8001AB2C1 /* CarData.swift in Sources */,
 				6D5AF58A27A9620B001902D4 /* LadaApp.swift in Sources */,
 				6D3F323527ABF7BC000AAFCD /* OnboardingView.swift in Sources */,
+				6D5B0C2427D8C33F00158D85 /* LadaHeaderView.swift in Sources */,
 				6D3F323127ABE241000AAFCD /* CarCardView.swift in Sources */,
+				6D5B0C2227D8BDA800158D85 /* LadaDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
