@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/MaksMai/LadaClassic/main/Info/Снимок%20экрана%202022-03-10%20в%2015.30.38.png)
+![Logo](https://raw.githubusercontent.com/MaksMai/LadaClassic/main/Cars/Жигули.png)
 
 # Наш родной Жигуль
 
