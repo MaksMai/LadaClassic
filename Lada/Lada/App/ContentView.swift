@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     //MARK: PROPERTIES
+    @State private var isShowingSettings: Bool = false
     
     var cars: [Car] = carsData
     
@@ -26,6 +27,18 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Автомобили")
+            .navigationBarItems(
+                trailing:
+                    Button(action: {
+                isShowingSettings = true
+            }) {
+                Image(systemName: "slider.horizontal.3")
+            } // Button
+                    .sheet(isPresented: $isShowingSettings) {
+                        SettingsView()
+                    }
+            )
+            
         } // NavigationView
     }
 }

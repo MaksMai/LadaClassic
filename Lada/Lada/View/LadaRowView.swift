@@ -42,6 +42,7 @@ struct LadaRowView: View {
 struct LadaRowView_Previews: PreviewProvider {
     static var previews: some View {
         LadaRowView(car: carsData[0])
+            .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding()
     }

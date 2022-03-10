@@ -12,6 +12,8 @@
 		6D3F323127ABE241000AAFCD /* CarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323027ABE241000AAFCD /* CarCardView.swift */; };
 		6D3F323327ABF247000AAFCD /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323227ABF247000AAFCD /* StartButtonView.swift */; };
 		6D3F323527ABF7BC000AAFCD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */; };
+		6D56C63927D9CB5300D57CF6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D56C63827D9CB5300D57CF6 /* SettingsView.swift */; };
+		6D56C63B27D9D33E00D57CF6 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D56C63A27D9D33E00D57CF6 /* SettingsLabelView.swift */; };
 		6D5AF58A27A9620B001902D4 /* LadaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5AF58927A9620B001902D4 /* LadaApp.swift */; };
 		6D5AF58C27A9620B001902D4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5AF58B27A9620B001902D4 /* ContentView.swift */; };
 		6D5AF58E27A9620C001902D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5AF58D27A9620C001902D4 /* Assets.xcassets */; };
@@ -30,6 +32,8 @@
 		6D3F323227ABF247000AAFCD /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		6D3F323627ABFC2A000AAFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6D56C63827D9CB5300D57CF6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6D56C63A27D9D33E00D57CF6 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		6D5AF58627A9620B001902D4 /* Lada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D5AF58927A9620B001902D4 /* LadaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadaApp.swift; sourceTree = "<group>"; };
 		6D5AF58B27A9620B001902D4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				6D5AF58B27A9620B001902D4 /* ContentView.swift */,
 				6D3F323427ABF7BC000AAFCD /* OnboardingView.swift */,
 				6D5B0C2127D8BDA800158D85 /* LadaDetailView.swift */,
+				6D56C63827D9CB5300D57CF6 /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 				6D5B0C2327D8C33F00158D85 /* LadaHeaderView.swift */,
 				6D5B0C2527D8C67E00158D85 /* SourseLinkView.swift */,
 				6D5B0C2727D8CC3500158D85 /* LadaFeatureView.swift */,
+				6D56C63A27D9D33E00D57CF6 /* SettingsLabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,8 +217,10 @@
 				6D5AF58A27A9620B001902D4 /* LadaApp.swift in Sources */,
 				6D3F323527ABF7BC000AAFCD /* OnboardingView.swift in Sources */,
 				6D5B0C2427D8C33F00158D85 /* LadaHeaderView.swift in Sources */,
+				6D56C63B27D9D33E00D57CF6 /* SettingsLabelView.swift in Sources */,
 				6D3F323127ABE241000AAFCD /* CarCardView.swift in Sources */,
 				6D5B0C2227D8BDA800158D85 /* LadaDetailView.swift in Sources */,
+				6D56C63927D9CB5300D57CF6 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

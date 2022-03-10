@@ -40,6 +40,7 @@ struct LadaHeaderView: View {
 struct LadaHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         LadaHeaderView(car: carsData[0])
+            .preferredColorScheme(.dark)
             .previewLayout(.fixed(width: 375, height: 440))
     }
 }

@@ -24,6 +24,7 @@ struct SourseLinkView: View {
 struct SourseLinkView_Previews: PreviewProvider {
     static var previews: some View {
         SourseLinkView()
+            .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding()
     }
