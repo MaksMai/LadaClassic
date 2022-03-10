@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct LadaRowView: View {
-    
     // MARK: PROPERTIES
     var car: Car
     
     // MAK: BODY
     var body: some View {
         HStack {
-            
             Image(car.image)
                 .renderingMode(.original)
                 .resizable()
@@ -28,7 +26,6 @@ struct LadaRowView: View {
                 Text(car.title)
                     .font(.title2)
                     .fontWeight(.bold)
-                
                 Text(car.headline)
                     .font(.caption)
                     .foregroundColor(Color.secondary)
@@ -38,7 +35,6 @@ struct LadaRowView: View {
 }
 
 // MARK: PREVIEW
-
 struct LadaRowView_Previews: PreviewProvider {
     static var previews: some View {
         LadaRowView(car: carsData[0])

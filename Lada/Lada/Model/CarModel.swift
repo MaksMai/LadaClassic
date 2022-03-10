@@ -8,7 +8,6 @@
 import SwiftUI
 
 // MARK: - CAR MODEL
-
 struct Car: Identifiable {
     var id = UUID()
     var title: String

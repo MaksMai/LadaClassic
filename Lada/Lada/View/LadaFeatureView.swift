@@ -10,7 +10,6 @@ import SwiftUI
 struct LadaFeatureView: View {
     // MARK: PROPERTIES
     var car: Car
-    
     let features: [String] = ["Модель", "Трансмиссия", "Объем двигателя", "Мощность двигателя"]
     
     // MAPK: BODY
@@ -33,7 +32,6 @@ struct LadaFeatureView: View {
                 }
             }
         } //  GroupBox
-       
     }
 }
 
@@ -42,7 +40,7 @@ struct LadaFeatureView_Previews: PreviewProvider {
     static var previews: some View {
         LadaFeatureView(car: carsData[0])
             .preferredColorScheme(.dark)
-            .previewLayout(.fixed(width: 375, height: 480))
+//            .previewLayout(.fixed(width: 375, height: 480))
             .padding()
     }
 }

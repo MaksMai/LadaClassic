@@ -17,7 +17,6 @@ struct LadaApp: App {
             } else {
                 ContentView()
             }
-            
         }
     }
 }

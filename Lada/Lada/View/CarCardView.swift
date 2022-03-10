@@ -9,13 +9,10 @@ import SwiftUI
     
 struct CarCardView: View {
     // MARK:  - PROPERTIES
-
     var car: Car
-    
     @State private var isAnimating: Bool = false
 
     // MARK:  - BODY
-
     var body: some View {
         ZStack {
             VStack(spacing: 20) {
@@ -37,7 +34,6 @@ struct CarCardView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 16)
                     .frame(maxWidth: 400)
-                
                 // BUTTON: START
                 StartButtonView()
             } // VSTACK
@@ -53,11 +49,10 @@ struct CarCardView: View {
 }
 
     // MARK: - PREVIEW
-
 struct CarCardView_Previews: PreviewProvider {
     static var previews: some View {
         CarCardView(car: carsData[1])
-            .previewLayout(.fixed(width: 320, height: 640))
+//            .previewLayout(.fixed(width: 320, height: 640))
             .preferredColorScheme(.dark)
     }
 }

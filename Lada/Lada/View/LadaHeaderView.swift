@@ -8,17 +8,13 @@
 import SwiftUI
 
 struct LadaHeaderView: View {
-    
     // MARK: PROPERTIES
-    
     var car: Car
     @State private var isAnimatingImage: Bool = false
     
     // MAK: BODY
-    
     var body: some View {
         ZStack {
-            
             LinearGradient(gradient: Gradient(colors: car.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing)
             Image(car.image)
                 .resizable()
@@ -36,11 +32,10 @@ struct LadaHeaderView: View {
 }
 
 // MARK: PREVIEW
-
 struct LadaHeaderView_Previews: PreviewProvider {
     static var previews: some View {
         LadaHeaderView(car: carsData[0])
             .preferredColorScheme(.dark)
-            .previewLayout(.fixed(width: 375, height: 440))
+//            .previewLayout(.fixed(width: 375, height: 440))
     }
 }

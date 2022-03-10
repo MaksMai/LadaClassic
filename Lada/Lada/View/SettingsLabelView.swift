@@ -12,7 +12,7 @@ struct SettingsLabelView: View {
     var label: String
     var image: String
     
-    // MAPK: BADY
+    // MAPK: BODY
     var body: some View {
         HStack {
             Text(label.uppercased()).fontWeight(.bold)
@@ -22,9 +22,11 @@ struct SettingsLabelView: View {
     }
 }
 
+// MARK: PREVIEW
 struct SettingsLabelView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsLabelView(label: "Автомобили Жигули", image: "info.circle")
+            .preferredColorScheme(.dark)
             .previewLayout(.sizeThatFits)
             .padding()
     }

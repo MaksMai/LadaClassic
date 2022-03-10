@@ -9,18 +9,15 @@ import SwiftUI
 
 struct StartButtonView: View {
     // MARK:  - PROPERTIES
-
     @AppStorage("isOnboarding") var isOnboarding: Bool?
 
     // MARK:  - BODY
-
     var body: some View {
         Button(action: {
             isOnboarding = false
         }) {
             HStack(spacing: 8) {
                 Text("СТАРТ!")
-                
                 Image(systemName: "arrow.right.circle")
                     .imageScale(.large)
             }
@@ -35,7 +32,6 @@ struct StartButtonView: View {
 }
 
 // MARK:  - PREVIEW
-
 struct StartButtonView_Previews: PreviewProvider {
     static var previews: some View {
         StartButtonView()

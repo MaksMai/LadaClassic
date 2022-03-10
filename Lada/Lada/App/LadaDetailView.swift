@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct LadaDetailView: View {
-    
     //MARK: - PROPERTIES
-
     var car: Car
 
     //MARK: - BODY
-
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
@@ -40,14 +37,13 @@ struct LadaDetailView: View {
                         // DESCRIPTION
                         Text(car.description)
                             .multilineTextAlignment(.leading)
-                        
                         // LINK
                         SourseLinkView()
                             .padding(.top, 10)
                             .padding(.bottom, 40)
                     } // VStack
                     .padding(.horizontal, 20)
-                    .frame(maxWidth: 640, alignment: .center)
+                    .frame(maxWidth: .infinity, alignment: .center)
                 } // VStack
                 .navigationBarTitle(car.title, displayMode: .inline)
                 .navigationBarHidden(true)
@@ -58,7 +54,6 @@ struct LadaDetailView: View {
 }
 
 // MARK: - PREVIEW
-
 struct LadaDetailView_Previews: PreviewProvider {
     static var previews: some View {
         LadaDetailView(car: carsData[0])

@@ -8,13 +8,10 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    
     // MARK: - PROPERTIES
-    
     var cars: [Car] = carsData
     
     // MARK: - BODY
-    
     var body: some View {
         TabView {
             ForEach(cars[0...6]) { item in
@@ -27,7 +24,6 @@ struct OnboardingView: View {
 }
 
     // MARK: PREVIEW
-
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingView(cars: carsData)

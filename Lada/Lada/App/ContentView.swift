@@ -8,14 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     //MARK: PROPERTIES
     @State private var isShowingSettings: Bool = false
-    
     var cars: [Car] = carsData
     
     //MARK: BODY
-    
     var body: some View {
         NavigationView {
             List {
@@ -44,7 +41,6 @@ struct ContentView: View {
 }
 
 // MARK: PREVIEW
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(cars: carsData)
