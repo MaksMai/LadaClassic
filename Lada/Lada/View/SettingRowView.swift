@@ -40,7 +40,7 @@ struct SettingRowView_Previews: PreviewProvider {
             SettingRowView(name: "Разработчик", content: "Максим Майоров (MaksMai)")
 //                .previewLayout(.fixed(width: 375, height: 60))
             .padding()
-            SettingRowView(name: "GitHub", linkLabel: "Мой наработки", linkDestination: "https://github.com/MaksMai")
+            SettingRowView(name: "GitHub", linkLabel: "Мой наработки", linkDestination: "github.com/MaksMai")
                 .preferredColorScheme(.dark)
 //                .previewLayout(.fixed(width: 375, height: 60))
                 .padding()

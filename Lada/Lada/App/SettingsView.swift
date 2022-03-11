@@ -66,7 +66,7 @@ struct SettingsView: View {
                        SettingRowView(name: "Разработчик", content: "Максим Майоров")
                         SettingRowView(name: "Дизайнер", content: "Максим Майоров")
                         SettingRowView(name: "Совместимость", content: "iOS 15.2")
-                        SettingRowView(name: "GitHub", linkLabel: "Мой наработки", linkDestination: "https://github.com/MaksMai")
+                        SettingRowView(name: "GitHub", linkLabel: "Мой наработки", linkDestination: "github.com/MaksMai")
                         SettingRowView(name: "Telegram", content: "@mvmaiorov")
                         SettingRowView(name: "SwiftUI", content: "2.0")
                         SettingRowView(name: "Версия", content: "1.0")
